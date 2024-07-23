@@ -1,0 +1,29 @@
+/* body :not(.fancy){
+    color:red;
+    background-color: #dddd;
+} */
+div:empty{
+    background-color: blueviolet;
+    border: 2px solid red;
+    height:100px;
+    width:100px;
+}
+:root{
+    background-color: #333;
+    color:red;
+}
+/* html{
+    background-color: red;
+    color:white;
+} */
+
+p::first-letter{
+    font-size: 32px;
+}
+p::first-line{
+    background: #000;
+}
+::selection{
+    color: white;
+    background-color: red;
+}

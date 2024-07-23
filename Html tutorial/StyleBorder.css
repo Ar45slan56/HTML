@@ -1,0 +1,19 @@
+h1{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: gainsboro;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+article{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    
+}

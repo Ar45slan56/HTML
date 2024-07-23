@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    <style>
+    input:focus{
+        padding:20px;
+        border: 2px solid green; 
+    }
+    input:required{
+        background-color:rgb(222, 212, 212) ;
+    }
+
+   /* p:first-child{
+    background-color: azure;
+   }
+   p:first-of-type{
+    border: 2px solid black;
+   }
+    p:last-of-type{
+        color:blue;
+    }
+   p:last-child{
+    font-size: 26px;
+   } */
+
+   p:nth-child(2n){
+    color:red;
+   }
+   p:nth-of-type(2n+1){
+    border: 2px solid black;
+   }
+</style>
+</head>
+<body>
+    <p>this is 2 p</p><br/>
+    <form>
+        <input type="text" placeholder="Enter Your Email" required><br/><br/>
+        <input type="password" placeholder="Enter your password"><br/><br/>
+        <input type="submit" value="Submit">
+    </form>
+
+    <header>
+        <h1>this is heading</h1>
+        <p>this is 1sst p</p>
+        <p>this is 2 p</p>
+        <p>this is 3 p</p>
+    </header>
+
+    <p>this is 2 p</p>
+    <p>this is 2 p</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.cool::before{
+    content:'Hi this is before content ';
+    color:green;
+    border: 1px solid black;
+    display: block;
+}
+.cool::after{
+    content:'Hi this is after content ';
+    color:red;
+    border: 1px solid black;
+    display: block;
+}
